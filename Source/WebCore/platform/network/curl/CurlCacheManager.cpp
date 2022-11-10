@@ -26,7 +26,7 @@
 
 #include "config.h"
 
-#if USE(CURL)
+#if true
 
 #include "CurlCacheManager.h"
 

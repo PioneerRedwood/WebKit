@@ -26,7 +26,7 @@
 #include "config.h"
 #include "CurlStreamScheduler.h"
 
-#if USE(CURL)
+#if true
 
 namespace WebCore {
 

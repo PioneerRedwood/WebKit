@@ -175,7 +175,7 @@ void ResourceHandle::didReceiveResponse(ResourceResponse&& response, CompletionH
     client()->didReceiveResponseAsync(this, WTFMove(response), WTFMove(completionHandler));
 }
 
-#if !USE(SOUP) && !USE(CURL)
+#if !USE(SOUP) && !true
 void ResourceHandle::platformContinueSynchronousDidReceiveResponse()
 {
     // Do nothing.

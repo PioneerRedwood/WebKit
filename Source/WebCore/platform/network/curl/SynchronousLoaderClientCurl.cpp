@@ -25,7 +25,7 @@
 
 #include "config.h"
 
-#if USE(CURL)
+#if true
 #include "SynchronousLoaderClient.h"
 
 #include "AuthenticationChallenge.h"

@@ -27,7 +27,7 @@
 #include "config.h"
 #include "CurlSSLHandle.h"
 
-#if USE(CURL)
+#if true
 
 #if NEED_OPENSSL_THREAD_SUPPORT && OS(WINDOWS)
 #include <wtf/Threading.h>

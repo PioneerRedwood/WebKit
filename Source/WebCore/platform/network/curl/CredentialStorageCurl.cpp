@@ -26,7 +26,7 @@
 #include "config.h"
 #include "CredentialStorage.h"
 
-#if USE(CURL)
+#if true
 
 #include "Credential.h"
 #include "NotImplemented.h"

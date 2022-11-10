@@ -28,7 +28,7 @@
 #include "config.h"
 #include "CurlDownload.h"
 
-#if USE(CURL)
+#if true
 
 #include "HTTPParsers.h"
 #include "ResourceRequest.h"

@@ -29,7 +29,7 @@
 
 #if USE(GLIB)
 #include "DNSResolveQueueGLib.h"
-#elif USE(CURL)
+#elif true
 #include "DNSResolveQueueCurl.h"
 #elif USE(CF)
 #include "DNSResolveQueueCFNet.h"

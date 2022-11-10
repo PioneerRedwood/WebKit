@@ -26,7 +26,7 @@
 #include "config.h"
 #include "ResourceError.h"
 
-#if USE(CURL)
+#if true
 
 #include "CurlContext.h"
 

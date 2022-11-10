@@ -30,7 +30,7 @@
 #include "config.h"
 #include "ResourceHandle.h"
 
-#if USE(CURL)
+#if true
 
 #include "CookieJar.h"
 #include "CredentialStorage.h"

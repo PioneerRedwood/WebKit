@@ -32,7 +32,7 @@
 #include "config.h"
 #include "CurlFormDataStream.h"
 
-#if USE(CURL)
+#if true
 
 #include "BlobRegistry.h"
 #include "CurlContext.h"

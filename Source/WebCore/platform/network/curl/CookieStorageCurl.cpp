@@ -26,7 +26,7 @@
 #include "config.h"
 #include "CookieStorage.h"
 
-#if USE(CURL)
+#if true
 
 #include "NotImplemented.h"
 

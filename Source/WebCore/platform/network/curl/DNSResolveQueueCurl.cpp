@@ -26,7 +26,7 @@
 #include "config.h"
 #include "DNSResolveQueueCurl.h"
 
-#if USE(CURL)
+#if true
 
 #include "NotImplemented.h"
 

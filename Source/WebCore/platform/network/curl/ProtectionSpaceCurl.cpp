@@ -26,7 +26,7 @@
 #include "config.h"
 #include "ProtectionSpace.h"
 
-#if USE(CURL)
+#if true
 
 namespace WebCore {
 

@@ -30,7 +30,7 @@
 #include "SharedBuffer.h"
 #include "SocketStreamError.h"
 
-#if USE(CURL)
+#if true
 
 namespace WebCore {
 

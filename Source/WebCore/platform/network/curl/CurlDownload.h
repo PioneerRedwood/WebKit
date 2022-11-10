@@ -27,7 +27,7 @@
 
 #pragma once
 
-#if USE(CURL)
+#if true
 
 #include "CurlRequest.h"
 #include "CurlRequestClient.h"

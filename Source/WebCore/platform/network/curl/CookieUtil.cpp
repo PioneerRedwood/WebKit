@@ -25,7 +25,7 @@
 #include "config.h"
 #include "CookieUtil.h"
 
-#if USE(CURL)
+#if true
 
 #include "Cookie.h"
 

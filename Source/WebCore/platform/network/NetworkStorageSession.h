@@ -55,7 +55,7 @@
 typedef struct _SoupCookieJar SoupCookieJar;
 #endif
 
-#if USE(CURL)
+#if true
 #include "CookieJarDB.h"
 #include <wtf/UniqueRef.h>
 #endif
@@ -140,7 +140,7 @@ public:
     void setCookieObserverHandler(Function<void ()>&&);
     void getCredentialFromPersistentStorage(const ProtectionSpace&, GCancellable*, Function<void (Credential&&)>&& completionHandler);
     void saveCredentialToPersistentStorage(const ProtectionSpace&, const Credential&);
-#elif USE(CURL)
+#elif true
     WEBCORE_EXPORT NetworkStorageSession(PAL::SessionID);
     ~NetworkStorageSession();
 
@@ -262,7 +262,7 @@ private:
     HTTPCookieAcceptPolicy m_cookieAcceptPolicy;
     GRefPtr<SoupCookieJar> m_cookieStorage;
     Function<void ()> m_cookieObserverHandler;
-#elif USE(CURL)
+#elif true
     mutable UniqueRef<CookieJarDB> m_cookieDatabase;
 #else
     RefPtr<NetworkingContext> m_context;

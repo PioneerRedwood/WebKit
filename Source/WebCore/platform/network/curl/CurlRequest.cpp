@@ -26,7 +26,7 @@
 #include "config.h"
 #include "CurlRequest.h"
 
-#if USE(CURL)
+#if true
 
 #include "CertificateInfo.h"
 #include "CurlRequestClient.h"

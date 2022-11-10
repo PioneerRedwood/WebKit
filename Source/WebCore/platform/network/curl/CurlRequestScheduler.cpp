@@ -28,7 +28,7 @@
 #include "config.h"
 #include "CurlRequestScheduler.h"
 
-#if USE(CURL)
+#if true
 
 #include "CurlRequestSchedulerClient.h"
 

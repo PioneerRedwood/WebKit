@@ -38,7 +38,7 @@
 #include <pal/spi/win/CFNetworkSPIWin.h>
 #endif
 
-#if USE(CURL)
+#if true
 #include "CurlRequest.h"
 #include "SynchronousLoaderClient.h"
 #include <wtf/MessageQueue.h>
@@ -123,7 +123,7 @@ public:
 #if PLATFORM(COCOA) || USE(CFURLCONNECTION)
     RetainPtr<CFURLStorageSessionRef> m_storageSession;
 #endif
-#if USE(CURL)
+#if true
     std::unique_ptr<CurlResourceHandleDelegate> m_delegate;
     
     bool m_cancelled { false };

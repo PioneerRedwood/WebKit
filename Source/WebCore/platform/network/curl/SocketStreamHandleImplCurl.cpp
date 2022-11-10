@@ -33,7 +33,7 @@
 #include "config.h"
 #include "SocketStreamHandleImpl.h"
 
-#if USE(CURL)
+#if true
 
 #include "CurlStreamScheduler.h"
 #include "DeprecatedGlobalSettings.h"

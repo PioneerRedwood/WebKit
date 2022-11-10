@@ -26,7 +26,7 @@
 #include "config.h"
 #include "CurlProxySettings.h"
 
-#if USE(CURL)
+#if true
 
 #if PLATFORM(WIN)
 #include <winsock2.h>

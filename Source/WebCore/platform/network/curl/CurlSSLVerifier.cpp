@@ -27,7 +27,7 @@
 #include "config.h"
 #include "CurlSSLVerifier.h"
 
-#if USE(CURL)
+#if true
 #include "CurlContext.h"
 #include "CurlSSLHandle.h"
 

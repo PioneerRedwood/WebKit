@@ -27,7 +27,7 @@
 #include "config.h"
 #include "ResourceRequest.h"
 
-#if USE(CURL)
+#if true
 
 namespace WebCore {
 

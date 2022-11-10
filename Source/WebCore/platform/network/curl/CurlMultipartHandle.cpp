@@ -28,7 +28,7 @@
 #include "config.h"
 #include "CurlMultipartHandle.h"
 
-#if USE(CURL)
+#if true
 
 #include "CurlMultipartHandleClient.h"
 #include "CurlResponse.h"

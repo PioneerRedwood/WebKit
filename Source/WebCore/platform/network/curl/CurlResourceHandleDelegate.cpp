@@ -40,7 +40,7 @@
 
 #include <wtf/CompletionHandler.h>
 
-#if USE(CURL)
+#if true
 
 namespace WebCore {
 

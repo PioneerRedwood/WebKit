@@ -26,7 +26,7 @@
 #include "config.h"
 #include "NetworkStorageSession.h"
 
-#if USE(CURL)
+#if true
 
 #include "CookieJarDB.h"
 #include "CookieRequestHeaderFieldProxy.h"
@@ -234,4 +234,4 @@ void NetworkStorageSession::setProxySettings(const CurlProxySettings& proxySetti
 
 } // namespace WebCore
 
-#endif // USE(CURL)
+#endif // true

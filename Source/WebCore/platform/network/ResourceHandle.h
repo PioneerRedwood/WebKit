@@ -37,7 +37,7 @@
 #include <wtf/RetainPtr.h>
 #endif
 
-#if USE(CURL)
+#if true
 #include "CurlResourceHandleDelegate.h"
 #endif
 
@@ -88,7 +88,7 @@ class FragmentedSharedBuffer;
 class SynchronousLoaderMessageQueue;
 class Timer;
 
-#if USE(CURL)
+#if true
 class CurlRequest;
 class CurlResourceHandleDelegate;
 #endif
@@ -142,7 +142,7 @@ public:
     static void setClientCertificate(const String& host, CFDataRef);
 #endif
 
-#if OS(WINDOWS) && USE(CURL)
+#if OS(WINDOWS) && true
     static void setHostAllowsAnyHTTPSCertificate(const String&);
     static void setClientCertificateInfo(const String&, const String&, const String&);
 #endif
@@ -154,11 +154,11 @@ public:
 
     WEBCORE_EXPORT static void forceContentSniffing();
 
-#if USE(CURL)
+#if true
     ResourceHandleInternal* getInternal() { return d.get(); }
 #endif
 
-#if USE(CURL)
+#if true
     bool cancelledOrClientless();
     CurlResourceHandleDelegate* delegate();
 
@@ -250,7 +250,7 @@ private:
     NSURLRequest *applySniffingPoliciesIfNeeded(NSURLRequest *, bool shouldContentSniff, bool shouldContentEncodingSniff);
 #endif
 
-#if USE(CURL)
+#if true
     enum class RequestStatus {
         NewRequest,
         ReusedRequest

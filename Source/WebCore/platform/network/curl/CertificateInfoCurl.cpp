@@ -26,7 +26,7 @@
 #include "config.h"
 #include "CertificateInfo.h"
 
-#if USE(CURL)
+#if true
 
 #include "OpenSSLHelper.h"
 #include <openssl/ssl.h>
